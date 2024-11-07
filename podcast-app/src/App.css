@@ -2,8 +2,11 @@
   font-family: Arial, sans-serif;
   margin: 20px;
 }
+img{
+  border:10px solid green;
+}
 
-.preview-list {
+/* .preview-list {
   display: flex;
   flex-wrap: wrap;
 }
@@ -19,11 +22,23 @@
 .preview-card img {
   width: 50px;
   border-radius: 5px;
-}
+} */
+
+/* .show-details {
+  margin: 20px 0;
+  
+} */
 
 .show-details {
-  margin: 20px 0;
+  text-align: center;
 }
+
+.show-image img {
+  width: 10%; /* Ensures image scales to fit container */
+  height: 50px; /* Maintains aspect ratio */
+  border-radius: 10px; /* Optional: adds rounded corners to the image */
+}
+
 
 .genre-filter {
   margin-bottom: 20px;

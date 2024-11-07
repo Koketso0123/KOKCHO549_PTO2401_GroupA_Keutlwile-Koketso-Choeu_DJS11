@@ -137,13 +137,13 @@ Please refer to the DJS rubric found in your dashboard spreadsheet for more deta
 | P3.13 |                                    | User sees a preview image of seasons for a specific show (Note some Shows have different images for each Season)                                                                                               | Easy       | 1     |
 | P3.14 |                                    | User sees the amount of episodes as a number for a season                                                                                                                                                      | Easy       | 1     |
 | P3.15 |                                    | User is able to go back to a show view from a season-specific view                                                                                                                                             | Easy       | 1     |
-| P3.16 | Data Fetching and State Management | All show data loaded via a fetch call from the API (Note no podcast data should be hardcoded in the application)                                                                                               |
+| P3.16 | Data Fetching and State Management | All show data loaded via a fetch call from the API (Note no podcast data should be hardcoded in the application)                                                                                               | Medium     | 2     |
+| P3.17 |                                    | When viewing a specific show, data is loaded via fetch from individual show endpoint                                                                                                                           | Medium     | 2     |
+| P3.18 |                                    | There is a loading state while initial data is being loaded                                                                                                                                                    | Medium     | 2     |
+| P3.19 |                                    | There is a loading state while new data is being loaded                                                                                                                                                        | Hard       | 3     |
 
-                                                                                             | Medium     | 2     |
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-| P3.17 | | When viewing a specific show, data is loaded via fetch from individual show endpoint | Medium | 2 |
-| P3.18 | | There is a loading state while initial data is being loaded | Medium | 2 |
-| P3.19 | | There is a loading state while new data is being loaded | Hard | 3 |
 | P3.20 | User Interaction | User is able to mark specific episodes as favourites so that they can find them again (Note the requirement is that a specific episode of a specific season of a specific show is to be favourited) | Hard | 3 |
 | P3.21 | | User can visit a view where they see all their favourite episode | Hard | 3 |
 | P3.22 | | User is able to see the associated show and season when an episode is in favourites | Hard | 3 |
