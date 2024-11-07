@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+// import { addToFavorites, removeFromFavorites, getFavorites, resetFavorites } from "./LocalStorageUtils";
 
 const PreviewList = () => {
   const [previews, setPreviews] = useState([]);
@@ -8,7 +9,8 @@ const PreviewList = () => {
     const fetchPreviews = async () => {
       const response = await fetch("https://podcast-api.netlify.app");
       const data = await response.json();
-      setPreviews(data);
+      const sortedData = data.sort((a, b) => a.title.localeCompare(b.title)); // Sort alphabetically
+      setPreviews(sortedData);
     };
 
     fetchPreviews();
