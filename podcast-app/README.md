@@ -164,10 +164,14 @@ Please refer to the DJS rubric found in your dashboard spreadsheet for more deta
 | P3.34 | | Audio player is always visible so that user can listen to episodes while browsing | Medium | 2 |
 | P3.35 | | Audio player must show listening progress | Medium | 2 |
 | P3.36 | | User receives a notification that confirms they want to close the page when audio is playing | Medium | 2 |
+
 | P3.37 | | User can filter shows by genre | Hard | 3 |
 | P3.38 | Persistence and Storage | App remembers and shows what episodes user listened to all the way through. | Hard | 3 |
 | P3.39 | | Favourites must be persisted in localStorage | Hard | 3 |
 | P3.40 | | User has the option to "reset" all their progress, effectively removing their entire listening history. (Note marks are awarded only for "resetting" entire listening history) | Hard | 3 |
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
 | P3.41 | Overall Assessment | The project has a good appearance and Desktop layout when opened in a web browser. | Easy | 3 |
 | P3.42 | | The project is easy to navigate and interact with through a web browser. | Easy | 3 |
 | P3.43 | | The project's commit history shows short and clear commit messages. | Easy | 3 |
