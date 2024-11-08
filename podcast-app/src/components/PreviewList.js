@@ -174,7 +174,7 @@ const PreviewList = () => {
                   : "No Seasons Available"}
               </p> */}
               {/* // Show number of seasons */}
-              <p>{preview.seasons?.length} Seasons</p>
+              <p>{preview.seasons} Seasons</p>
 
               {/* Last updated date */}
               <p>Last updated: {formatDate(preview.updatedAt)}</p>
