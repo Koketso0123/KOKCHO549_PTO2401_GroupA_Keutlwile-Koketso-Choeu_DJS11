@@ -174,10 +174,13 @@ const PreviewList = () => {
                   : "No Seasons Available"}
               </p> */}
               {/* // Show number of seasons */}
-              <p>{preview.seasons} Seasons</p>
+              <p>Seasons:{preview.seasons} </p>
 
               {/* Last updated date */}
-              <p>Last updated: {formatDate(preview.updatedAt)}</p>
+              <p>
+                Last updated:{preview.updatedAt}
+                {/* {formatDate(preview.updatedAt)} */}
+              </p>
               {/* Display genres */}
               <div className="genres">
                 {preview.genreIds && preview.genreIds.length > 0 ? (
