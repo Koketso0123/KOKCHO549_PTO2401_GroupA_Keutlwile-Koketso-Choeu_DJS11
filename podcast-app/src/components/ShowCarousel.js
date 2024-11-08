@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ShowCarousel.css"; // Importing the CSS for carousel styles
+import "./ShowCarousel.css";
 
 const ShowCarousel = ({ shows }) => {
   const [currentIndex, setCurrentIndex] = useState(0);

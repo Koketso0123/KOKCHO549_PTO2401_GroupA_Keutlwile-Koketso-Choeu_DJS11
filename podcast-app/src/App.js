@@ -3,31 +3,12 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import ShowDetails from "./components/ShowDetails";
 import PreviewList from "./components/PreviewList";
 import Favorites from "./components/Favorite";
-import GenreFilter from "./components/GenreFilter";
 import "./App.css";
 
 const App = () => {
   const [shows, setShows] = useState([]);
   const [genres, setGenres] = useState([]);
   const [selectedGenre, setSelectedGenre] = useState(null);
-
-  // useEffect(() => {
-  //   const fetchShows = async () => {
-  //     const response = await fetch("https://podcast-api.netlify.app");
-  //     const data = await response.json();
-  //     setShows(data);
-  //   };
-
-  //   const fetchGenres = async () => {
-  //     const response = await fetch("https://podcast-api.netlify.app/genres");
-  //     const data = await response.json();
-  //     setGenres(data);
-  //   };
-
-  //   fetchShows();
-  //   fetchGenres();
-  // }, []);
-
   const fetchGenres = async () => {
     const response = await fetch("https://podcast-api.netlify.app/genres");
     const data = await response.json();
@@ -72,13 +53,6 @@ const App = () => {
             Favorites
           </Link>
         </nav>
-
-        {/* Genre Filter */}
-        <GenreFilter
-          genres={genres}
-          onSelectGenre={handleSelectGenre}
-          selectedGenre={selectedGenre}
-        />
 
         <Routes>
           <Route path="/" element={<PreviewList shows={shows} />} />

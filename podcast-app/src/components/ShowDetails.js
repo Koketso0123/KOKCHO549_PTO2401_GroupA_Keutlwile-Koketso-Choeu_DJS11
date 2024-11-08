@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-// import { addToFavorites, getFavorites } from "./LocalStorageUtils";
 
 const ShowDetails = () => {
   const { id } = useParams();
