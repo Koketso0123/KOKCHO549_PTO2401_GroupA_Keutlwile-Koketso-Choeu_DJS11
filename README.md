@@ -1,4 +1,4 @@
-Podcast App
+Podcast App: (https://my-podcast-app-010106.netlify.app/)
 
 Welcome to the Podcast App! This application allows users to explore a variety of podcasts, view show details, and manage their favorite episodes. Users can also filter shows by genre, view season information, and listen to podcast episodes directly in the app. Built using React, it provides a clean, intuitive interface and is fully deployable on platforms like Netlify.
 
