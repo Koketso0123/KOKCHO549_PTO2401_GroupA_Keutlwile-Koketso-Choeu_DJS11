@@ -16,7 +16,7 @@ const PreviewList = () => {
 
     const fetchGenres = async () => {
       const response = await fetch(
-        `https://podcast-api.netlify.app/genre/<ID>`
+        `https://podcast-api.netlify.app/genre/${genre}`
       );
       const data = await response.json();
       setGenres(data);
