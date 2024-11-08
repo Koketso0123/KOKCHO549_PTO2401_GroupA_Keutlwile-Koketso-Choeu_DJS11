@@ -178,7 +178,7 @@ const PreviewList = () => {
 
               {/* Last updated date */}
               <p>
-                Last updated:{preview.updatedAt}
+                Last updated:{preview.updated}
                 {/* {formatDate(preview.updatedAt)} */}
               </p>
               {/* Display genres */}
