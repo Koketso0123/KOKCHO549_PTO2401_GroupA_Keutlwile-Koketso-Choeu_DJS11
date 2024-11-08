@@ -167,17 +167,17 @@ const PreviewList = () => {
                 </div>
               )}
               <h3 className="preview-style">{preview.title}</h3>
-
-              {/* Show number of seasons */}
+              {/* Show number of seasons
               <p>
                 {preview.seasons && preview.seasons.length > 0
                   ? `${preview.seasons.length} Seasons`
                   : "No Seasons Available"}
-              </p>
+              </p> */}
+              {/* // Show number of seasons */}
+              <p>{preview.seasons?.length} Seasons</p>
 
               {/* Last updated date */}
               <p>Last updated: {formatDate(preview.updatedAt)}</p>
-
               {/* Display genres */}
               <div className="genres">
                 {preview.genreIds && preview.genreIds.length > 0 ? (
@@ -193,7 +193,6 @@ const PreviewList = () => {
                   <span>No genres available</span>
                 )}
               </div>
-
               <p>{preview.description}</p>
             </Link>
           </div>
