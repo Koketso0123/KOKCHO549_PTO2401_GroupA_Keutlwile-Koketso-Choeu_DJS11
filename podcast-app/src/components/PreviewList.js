@@ -48,7 +48,7 @@ const PreviewList = () => {
                 <img src={preview.image} alt={preview.title} />
               </div>
             )}
-            <h3>{preview.title}</h3>
+            <h3 className="preview-style">{preview.title}</h3>
 
             {/* Show number of seasons */}
             <p>{preview.seasons?.length} Seasons</p>

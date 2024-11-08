@@ -4,6 +4,7 @@ import ShowDetails from "./components/ShowDetails";
 import PreviewList from "./components/PreviewList";
 import Favorites from "./components/Favorite";
 import GenreFilter from "./components/GenreFilter";
+import "./App.css";
 
 const App = () => {
   const [shows, setShows] = useState([]);
@@ -63,7 +64,13 @@ const App = () => {
         <h1>Podcast App</h1>
         {/* Navigation Link to Favorites */}
         <nav>
-          <Link to="/">Home</Link> | <Link to="/favorites">Favorites</Link>
+          <Link to="/" className="nav-link">
+            Home
+          </Link>{" "}
+          |{" "}
+          <Link to="/favorites" className="nav-link">
+            Favorites
+          </Link>
         </nav>
 
         {/* Genre Filter */}

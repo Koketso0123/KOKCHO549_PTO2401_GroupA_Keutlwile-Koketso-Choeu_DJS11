@@ -62,7 +62,7 @@ const ShowDetails = () => {
 
       {/* Show title and description */}
       <h2>{show.title}</h2>
-      <p>{show.description}</p>
+      <p style={linkStyle}>{show.description}</p>
 
       {/* Season Selector Dropdown */}
       <div className="season-selector">
