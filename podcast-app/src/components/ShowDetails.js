@@ -10,7 +10,8 @@ const ShowDetails = () => {
 
   useEffect(() => {
     const fetchShowDetails = async () => {
-      const response = await fetch(`https://podcast-api.netlify.app/id/${id}`);
+      const response = await fetch(`https://podcast-api.netlify.app/id`);
+      // /${id}
       const data = await response.json();
       setShow(data);
       setSelectedSeason(data.seasons[0]);
