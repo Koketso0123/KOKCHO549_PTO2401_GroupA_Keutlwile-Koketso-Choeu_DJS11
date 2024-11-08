@@ -200,3 +200,5 @@ User is able to find shows based on fuzzy matching of concepts,App displays the 
 <!-- The README file includes a comprehensive introduction to the project, setup instructions, usage examples, and contact information.                                                                             | Easy       | 3     |
 | P3.46 |                                    | The project loads and functions without ANY bugs (Completed user stories possess no bugs whatsoever)                                                                                                           | Hard       | 4     |
 | P3.47 |                                    | Well organized project structure & clean readable code                                                                                                                                                         | Medium     | 3     | -->
+
+<!-- SECOND ONE THAT SWOWS ON NETLIFY -->
